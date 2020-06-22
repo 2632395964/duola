@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>doraemon</title>
+</head>
+<body>
+  <style id="demo2"></style>
+  <div id="demo"></div>
+  <div id="button">
+    <button id="slow">慢速</button>
+    <button id="normal">正常</button>
+    <button id="fast">快速</button>
+  </div>
+  
+  <style>#button{
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+    #button >button{
+      margin-bottom: 10px;
+      padding: 4px;
+    }
+    #demo2{
+      display: none;
+    }
+    #demo{
+      position: fixed;
+      height: 100%;
+      width: 30vw;
+      top: 0;
+      left: 0;
+      border: 1px solid red;
+      overflow-y: auto;
+
+    }
+    #demo::-webkit-scrollbar{
+      display: none;
+    }
+    #html{
+      position: fixed;
+      bottom: 0;
+      left: 30%;
+      width: 70vw;
+      height:100%
+    }</style>
+  <div class="uplimb">
+    <div class="foot left"></div>
+    <div class="foot right"></div>
+    <div class="body"></div>
+    <div class="arm left">
+      <div class="hand"></div>
+    </div>
+    <div class="arm right">
+      <div class="hand"></div>
+    </div>
+  </div>
+  <div class="neck">
+    <div class="bell"></div>
+  </div>
+  <div class="head">
+    <div class="face">
+        <div class="beard left">
+          <div class="b1"></div>
+          <div class="b2"></div>
+          <div class="b3"></div>
+        </div>
+        <div class="beard right">
+          <div class="b1"></div>
+          <div class="b2"></div>
+          <div class="b3"></div>
+      </div>
+      <div class="eye left">
+        <span class="yuan1"></span>
+      </div>
+      <div class="eye right">
+        <span class="yuan2"></span>
+      </div>
+      <div class="nose"></div>
+      <div class="mouth">
+        <div></div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="fly">
+    <div class="a"></div>
+    <div class="b"></div>
+  </div>
+  
+<script src="./main.1f19ae8e.js"></script>
+</body>
+</html>
